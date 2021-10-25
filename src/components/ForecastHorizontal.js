@@ -11,7 +11,7 @@ const degToCompass = (deg) => {
     return arr[(val % 16)]
 }
 
-const WeatherDotGov = ({device, http, httpAction, tile, useHttp, useInterval}) => {
+const ForecastHorizontal = ({device, http, httpAction, tile, useHttp, useInterval}) => {
 
     const device_state = useSelector(state => state.DeviceController.data[tile.id], shallowEqual) || {}
     const user = useSelector(state => state.User)
@@ -157,4 +157,4 @@ const WeatherDotGov = ({device, http, httpAction, tile, useHttp, useInterval}) =
     )
 }
 
-export default WeatherDotGov
+export default ForecastHorizontal

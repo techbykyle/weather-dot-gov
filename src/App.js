@@ -1,8 +1,8 @@
 import React from 'react'
-import WeatherDotGov from './components/WeatherDotGov'
+import ForecastHorizontal from './components/ForecastHorizontal'
 
 const App = () => {
-	return <WeatherDotGov />
+	return <ForecastHorizontal />
 }
 
 export default App
