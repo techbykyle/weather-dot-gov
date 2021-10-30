@@ -10,11 +10,11 @@ const Alerts = ({alerts, totals}) => {
     const style = {
         cursor: 'pointer',
         margin: '0 auto',
-        width: 135,
+        width: 255,
         height: 22,
         display: 'block',
         position: 'absolute',
-        top: '-25px',
+        top: '-23px',
         right: 0,
     }
 
