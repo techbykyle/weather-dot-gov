@@ -32,6 +32,7 @@ const ForecastHorizontal = ({device, http, httpAction, tile, useHttp, useInterva
     const current_ts = new Date().getTime()
     const end_stamp = new Date().toISOString()
     const start_stamp = new Date(current_ts - (60 * 60 * 1000)).toISOString()
+    const forecast_timer = forecasts.length <= 0 ? 1: 60
     const dispatch = useDispatch()
 
     let temperature = Math.round((current_conditions?.temperature?.value * 9/5 + 32) * 10) / 10 || 0
@@ -92,7 +93,7 @@ const ForecastHorizontal = ({device, http, httpAction, tile, useHttp, useInterva
 
     useInterval(() => {
         httpAction(dispatch, user.token, device.id, tile.id, http['get_forecast'])
-    }, 60 * 60000)
+    }, forecast_timer * 60000)
 
     //console.log('active_alerts', active_alerts)
     //console.log('latest_observation', current_conditions)
