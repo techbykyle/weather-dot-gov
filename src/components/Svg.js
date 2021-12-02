@@ -45,6 +45,7 @@ const Svg = {
     CloudythenSlightChanceRainShowers: light_rain,
     Clear: clear,
     Cloudy: partly_cloudy,
+    Haze: fog,
     HumidityDrop: humidity_drop,
     LightRain: light_rain,
     LightRainthenSlightChanceRainShowers: light_rain,
