@@ -1,7 +1,7 @@
 {
   "name": "weather-dot-gov",
   "federated-module-name": "WeatherDotGov",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "description": "Display data from weather.gov for a given location.",
   "main": "index.js",
   "scripts": {
@@ -22,8 +22,8 @@
     "@babel/preset-react": "7.10.4",
     "babel-loader": "8.1.0",
     "html-webpack-plugin": "5.3.1",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
     "react-redux": "7.2.3",
     "webpack": "5.58.1",
     "webpack-cli": "4.9.0"
