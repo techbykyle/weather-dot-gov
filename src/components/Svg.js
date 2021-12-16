@@ -16,8 +16,6 @@ const mostly_clear = (width, height) => { return <svg xmlns="http://www.w3.org/2
 
 const fog = (width, height) => { return <svg xmlns="http://www.w3.org/2000/svg" width={width} height={height} fill="currentColor" viewBox="0 0 16 16"><path d="M.036 3.314a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0L.314 3.964a.5.5 0 0 1-.278-.65zm0 3a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0L.314 6.964a.5.5 0 0 1-.278-.65zm0 3a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0L.314 9.964a.5.5 0 0 1-.278-.65zm0 3a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.757-.703a.5.5 0 0 1-.278-.65z"/></svg> }
 
-const light_rain = (width, height) => { return <svg xmlns="http://www.w3.org/2000/svg" width={width} height={height} fill="currentColor" viewBox="0 0 16 16"><path d="M4.158 12.025a.5.5 0 0 1 .316.633l-.5 1.5a.5.5 0 0 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.317zm6 0a.5.5 0 0 1 .316.633l-.5 1.5a.5.5 0 0 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.317zm-3.5 1.5a.5.5 0 0 1 .316.633l-.5 1.5a.5.5 0 0 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.317zm6 0a.5.5 0 0 1 .316.633l-.5 1.5a.5.5 0 1 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.317zm.747-8.498a5.001 5.001 0 0 0-9.499-1.004A3.5 3.5 0 1 0 3.5 11H13a3 3 0 0 0 .405-5.973zM8.5 2a4 4 0 0 1 3.976 3.555.5.5 0 0 0 .5.445H13a2 2 0 0 1 0 4H3.5a2.5 2.5 0 1 1 .605-4.926.5.5 0 0 0 .596-.329A4.002 4.002 0 0 1 8.5 2z"/></svg> }
-
 const rain = (width, height) => { return <svg xmlns="http://www.w3.org/2000/svg" width={width} height={height} fill="currentColor" viewBox="0 0 16 16"><path d="M4.158 12.025a.5.5 0 0 1 .316.633l-.5 1.5a.5.5 0 0 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.317zm3 0a.5.5 0 0 1 .316.633l-1 3a.5.5 0 0 1-.948-.316l1-3a.5.5 0 0 1 .632-.317zm3 0a.5.5 0 0 1 .316.633l-.5 1.5a.5.5 0 0 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.317zm3 0a.5.5 0 0 1 .316.633l-1 3a.5.5 0 1 1-.948-.316l1-3a.5.5 0 0 1 .632-.317zm.247-6.998a5.001 5.001 0 0 0-9.499-1.004A3.5 3.5 0 1 0 3.5 11H13a3 3 0 0 0 .405-5.973zM8.5 2a4 4 0 0 1 3.976 3.555.5.5 0 0 0 .5.445H13a2 2 0 0 1 0 4H3.5a2.5 2.5 0 1 1 .605-4.926.5.5 0 0 0 .596-.329A4.002 4.002 0 0 1 8.5 2z"/></svg> }
 
 const thunderstorm = (width, height) => { return <svg xmlns="http://www.w3.org/2000/svg" width={width} height={height} fill="currentColor" viewBox="0 0 16 16"><path d="M2.658 11.026a.5.5 0 0 1 .316.632l-.5 1.5a.5.5 0 1 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.316zm9.5 0a.5.5 0 0 1 .316.632l-.5 1.5a.5.5 0 0 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.316zm-7.5 1.5a.5.5 0 0 1 .316.632l-.5 1.5a.5.5 0 1 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.316zm9.5 0a.5.5 0 0 1 .316.632l-.5 1.5a.5.5 0 0 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.316zm-7.105-1.25A.5.5 0 0 1 7.5 11h1a.5.5 0 0 1 .474.658l-.28.842H9.5a.5.5 0 0 1 .39.812l-2 2.5a.5.5 0 0 1-.875-.433L7.36 14H6.5a.5.5 0 0 1-.447-.724l1-2zm6.352-7.249a5.001 5.001 0 0 0-9.499-1.004A3.5 3.5 0 1 0 3.5 10H13a3 3 0 0 0 .405-5.973z"/></svg> }
@@ -28,77 +26,73 @@ const thermometer = (width, height) => { return <svg xmlns="http://www.w3.org/20
 
 const wind = (width, height) => { return <svg xmlns="http://www.w3.org/2000/svg" width={width} height={height} fill="currentColor" viewBox="0 0 16 16"><path d="M12.5 2A2.5 2.5 0 0 0 10 4.5a.5.5 0 0 1-1 0A3.5 3.5 0 1 1 12.5 8H.5a.5.5 0 0 1 0-1h12a2.5 2.5 0 0 0 0-5zm-7 1a1 1 0 0 0-1 1 .5.5 0 0 1-1 0 2 2 0 1 1 2 2h-5a.5.5 0 0 1 0-1h5a1 1 0 0 0 0-2zM0 9.5A.5.5 0 0 1 .5 9h10.042a3 3 0 1 1-3 3 .5.5 0 0 1 1 0 2 2 0 1 0 2-2H.5a.5.5 0 0 1-.5-.5z"/></svg> }
 
-const Svg = {
-    ChanceRain: rain,
-    ChanceLightRain: light_rain,
-    ChanceLightRainthenRainAndSnowLikely: snow,
-    ChanceLightRainthenSlightChanceRainShowers: light_rain,
-    ChanceLightSnow: snow,
-    ChanceRainShowers: rain,
-    ChanceSnowShowers: snow,
-    ChanceRainAndSnowShowers: snow,
-    ChanceRainShowersthenMostlyClear: light_rain,
-    ChanceRainShowersthenMostlyCloudy: light_rain,
-    ChanceRainShowersthenPartlyCloudy: light_rain,
-    ChanceShowersAndThunderstorms: thunderstorm,
-    CloudythenSlightChanceRain: light_rain,
-    CloudythenSlightChanceRainShowers: light_rain,
-    Clear: clear,
-    Cloudy: partly_cloudy,
-    Haze: fog,
-    HumidityDrop: humidity_drop,
-    LightRain: light_rain,
-    LightRainthenSlightChanceRainShowers: light_rain,
-    LightRainLikely: light_rain,
-    LightRainthenRainShowersLikely: light_rain,
-    MoonFill: moon_fill,
-    MostlyClear: mostly_clear,
-    MostlyCloudy: partly_cloudy,
-    MostlyCloudythenLightRain: light_rain,
-    MostlyCloudythenChanceLightRain: light_rain,
-    MostlyCloudythenSlightChanceLightRain: light_rain,
-    MostlyCloudythenSlightChanceRainShowers: rain,
-    MostlySunny: sunny,
-    MostlySunnythenChanceLightRain: light_rain,
-    MostlySunnythenSlightChanceLightRain: light_rain,
-    PartlyCloudy: partly_cloudy,
-    PartlyCloudythenPatchyFrost: partly_cloudy,
-    PartlySunny: partly_cloudy,
-    PartlySunnythenChanceLightRain: light_rain,
-    PatchyFog: fog,
-    PatchyFogthenMostlyCloudy: fog,
-    PatchyFrostthenPartlySunny: partly_cloudy,
-    PatchyBlowingDust: wind,
-    Rain: rain,
-    RainLikely: rain,
-    RainAndSnowLikely: snow,
-    RainShowers: rain,
-    ScatteredRainShowers: rain,
-    ScatteredRainShowersthenPatchyFog: light_rain,
-    ShowersAndThunderstormsthenLightRain: thunderstorm,
-    SlightChanceLightRain: light_rain,
-    SlightChanceLightRainthenPartlyCloudy: light_rain,
-    SlightChanceLightRainthenPartlySunny: light_rain,
-    SlightChanceLightRainthenMostlyCloudy: light_rain,
-    SlightChanceRainAndSnow: snow,
-    SlightChanceRainAndSnowShowers: snow,
-    SlightChanceRainShowers: rain,
-    SlightChanceRainShowersthenPartlyCloudy: light_rain,
-    SlightChanceRainShowersthenMostlyCloudy: light_rain,
-    SlightChanceRainShowersthenMostlySunny: light_rain,
-    SlightChanceSnowShowersthenPartlySunny: snow,
-    SlightChanceSnowShowersthenMostlySunny: snow,
-    SnowShowers: snow,
-    Sunny: sunny,
-    Thermometer: thermometer,
-    WindPointer: wind_pointer,
-}
+const partly_cloudy_night = (width, height) => { return <svg xmlns="http://www.w3.org/2000/svg" width={width} height={height} fill="currentColor" viewBox="0 0 16 16">
+<path d="M7 8a3.5 3.5 0 0 1 3.5 3.555.5.5 0 0 0 .625.492A1.503 1.503 0 0 1 13 13.5a1.5 1.5 0 0 1-1.5 1.5H3a2 2 0 1 1 .1-3.998.5.5 0 0 0 .509-.375A3.502 3.502 0 0 1 7 8zm4.473 3a4.5 4.5 0 0 0-8.72-.99A3 3 0 0 0 3 16h8.5a2.5 2.5 0 0 0 0-5h-.027z"/>
+<path d="M11.286 1.778a.5.5 0 0 0-.565-.755 4.595 4.595 0 0 0-3.18 5.003 5.46 5.46 0 0 1 1.055.209A3.603 3.603 0 0 1 9.83 2.617a4.593 4.593 0 0 0 4.31 5.744 3.576 3.576 0 0 1-2.241.634c.162.317.295.652.394 1a4.59 4.59 0 0 0 3.624-2.04.5.5 0 0 0-.565-.755 3.593 3.593 0 0 1-4.065-5.422z"/>
+</svg> }
 
-const GetSvg = (width, height, name) => {
-    let func = Svg[name]
-    if(typeof func !== 'function') {
-        func = Svg['Thermometer']
+const GetSvg = (width, height, name, is_day = false) => {
+
+    let func
+
+    name = name.toLowerCase()
+
+    if(name.indexOf('clear') > -1) {
+        func = clear
+    } 
+
+    if(name.indexOf('mostlyclear') > -1) {
+        func = mostly_clear
+    } 
+
+    if(name.indexOf('sunny') > -1) {
+        func = sunny
+    } 
+
+    if(name.indexOf('cloudy') > -1) {
+        func = is_day ? partly_cloudy: partly_cloudy_night
+    } 
+
+    if(name.indexOf('dust') > -1 || name.indexOf('wind') > -1) {
+        func = wind
+    } 
+
+    if(name.indexOf('haze') > -1 || name.indexOf('fog') > -1) {
+        func = fog
+    } 
+
+    if(name.indexOf('rain') > -1) {
+        func = rain
+    } 
+
+    if(name.indexOf('thunderstorm') > -1) {
+        func = thunderstorm
+    } 
+
+    if(name.indexOf('snow') > -1) {
+        func = snow
     }
+
+    if(name === 'windpointer') {
+        func = wind_pointer
+    }
+
+    if(name === 'thermometer') {
+        func = thermometer
+    }
+
+    if(name === 'humiditydrop') {
+        func = humidity_drop
+    }
+
+    if(name === 'moonfill') {
+        func = moon_fill
+    }
+
+    if(typeof func !== 'function') {
+        func = thermometer
+    }
+
     return func(width, height)
 }
 

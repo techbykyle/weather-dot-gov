@@ -97,7 +97,7 @@ const Split = ({endTime, forecastedRelHumiditity, isDaytime, precipPossibilities
                 {showWindMetrics()}
             </p>
 
-            <p style={{width: '27%', padding: '0 10px 0 0', ...icon_side}}>{GetSvg(50, 50, shortForecast.replace(/\s/g, ''))}</p>
+            <p style={{width: '27%', padding: '0 10px 0 0', ...icon_side}}>{GetSvg(50, 50, shortForecast.replace(/\s/g, ''), isDaytime)}</p>
 
         </div>
     )

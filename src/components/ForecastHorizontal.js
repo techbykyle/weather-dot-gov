@@ -95,12 +95,6 @@ const ForecastHorizontal = ({device, http, httpAction, tile, useHttp, useInterva
         httpAction(dispatch, user.token, device.id, tile.id, http['get_forecast'])
     }, forecast_timer * 60000)
 
-    //console.log('active_alerts', active_alerts)
-    //console.log('latest_observation', current_conditions)
-    //console.log('forecasts', forecasts)
-    //console.log('gridpoint_data', gridpoint_data)
-    //console.log('observations', observations)
-
     if(forecasts.length <= 0) {
         return <div className="txt_center"><br />
             <div className="button_loader button_loader_l"></div>
