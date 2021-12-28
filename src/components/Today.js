@@ -106,7 +106,9 @@ const Today = ({active_alerts, day, forecast, high_temp, humidity, low_temp, pre
                 </div>
             </div>
 
-            <div className="clear txt_center" style={{padding: '5px 10px 10px 10px'}}>{GetSvg(main_icon_dim.width, main_icon_dim.height, forecast.shortForecast.replace(/\s/g, ''))}</div>
+            <div className="clear txt_center" style={{padding: '5px 10px 10px 10px'}}>
+                {GetSvg(main_icon_dim.width, main_icon_dim.height, forecast.shortForecast.replace(/\s/g, ''))}
+            </div>
 
             <div className="clear txt_center" style={{fontSize: 20}}>{forecast.shortForecast}</div>
 
