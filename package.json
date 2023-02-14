@@ -1,7 +1,7 @@
 {
   "name": "weather-dot-gov",
   "federated-module-name": "WeatherDotGov",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Display data from weather.gov for a given location.",
   "main": "index.js",
   "scripts": {

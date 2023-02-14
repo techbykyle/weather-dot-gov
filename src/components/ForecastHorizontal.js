@@ -85,15 +85,15 @@ const ForecastHorizontal = ({device, http, httpAction, tile, useHttp, useInterva
 
     useInterval(() => {
         httpAction(dispatch, user.token, device.id, tile.id, http['get_active_alerts'])
-    }, 2 * 60000)
+    }, 2 * 60000, tile.id, http['get_active_alerts'])
 
     useInterval(() => {
         httpAction(dispatch, user.token, device.id, tile.id, http['get_latest_observation'])
-    }, 10 * 60000)
+    }, 10 * 60000, tile.id, http['get_latest_observation'])
 
     useInterval(() => {
         httpAction(dispatch, user.token, device.id, tile.id, http['get_forecast'])
-    }, forecast_timer * 60000)
+    }, forecast_timer * 60000, tile.id, http['get_forecast'])
 
     if(forecasts.length <= 0) {
         return <div className="txt_center"><br />

@@ -73,6 +73,10 @@ const GetSvg = (width, height, name, is_day = false) => {
         func = snow
     }
 
+    if(name.indexOf('tropical storm') > -1) {
+        func = thunderstorm
+    }
+
     if(name === 'windpointer') {
         func = wind_pointer
     }
